@@ -1,0 +1,6 @@
+import User from './user'
+import pin from './pin'
+import comment from './comment'
+import save from './save'
+import postedBy from './postedBy'
+export const schemaTypes = [User,pin,comment,save,postedBy]
